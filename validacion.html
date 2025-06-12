@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de datos</title>
+    <link rel="stylesheet" href="./css/validaion.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validación de nombre y contraseña</h1>
+
+        <div class="campo">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" placeholder="Escribí tu usuario">
+        </div>
+
+        <div class="campo">
+            <label for="contrasena">Contraseña:</label>
+            <input type="text" id="contrasena" placeholder="Mín: 8 caracteres, 1 número, 1 mayúscula, 1 especial">
+        </div>
+
+        <button onclick="validar()">Validar</button>
+    </div>
+
+    <script src="./js/validacion.js"></script>
+</body>
+</html>
