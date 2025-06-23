@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingreso de Nombre y Edad</title>
+    <link rel="stylesheet" href="./css/edad.css">
+</head>
+<body>
+
+    <h1>Ingreso de Nombre y Edad</h1>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required min="0">
+    <br><br>
+    <button type="button" onclick="verificarEdad()">Enviar</button>
+    <script src="./js/edad.js"></script>
+</body>
+</html>
